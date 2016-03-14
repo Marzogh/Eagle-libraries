@@ -56,6 +56,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
+<description>Card edge connectors - Receptacles and plugs</description>
 <packages>
 <package name="PCI-120-1.27MM-REC-SMT">
 <smd name="P$1" x="-40.7035" y="-4.318" dx="0.762" dy="2.667" layer="1" roundness="25"/>
