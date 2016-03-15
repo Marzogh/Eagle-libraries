@@ -381,19 +381,6 @@ Option B: Default
 </devices>
 </deviceset>
 <deviceset name="MC-RTC-RV-8564-C2-I2C" prefix="X">
-<description>&lt;b&gt;Microcrystal RV-8564-C2&lt;/b&gt; &lt;br&gt; &lt;i&gt;
-Real Time Clock Module with I2C Bus&lt;/i&gt; &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Automotive qualified, according to AEC-Q200 Rev. C
-&lt;li&gt;Xtal integrated solution
-&lt;li&gt;Miniature SMT ceramic package
-&lt;li&gt;Ultra low power consumption
-&lt;li&gt;Very tight frequency tolerance
-&lt;li&gt;I2C Bus Interface (400 kHz) *
-&lt;li&gt;Programmable Clock-output
-&lt;li&gt;Low aging
-&lt;li&gt;Time keeping mode down to 1.2 V
-&lt;li&gt;Programmable alarm, timer and interrupt functions</description>
 <gates>
 <gate name="G$1" symbol="MC-RTC-RV-8564-C2-I2C-10P" x="0" y="0"/>
 </gates>
@@ -508,20 +495,6 @@ Option B: Default
 </devices>
 </deviceset>
 <deviceset name="MC-RTC-RV-8523-C3-I2C" prefix="X">
-<description>&lt;b&gt;Microcrystal RV-8523-C3&lt;/b&gt; &lt;br&gt; &lt;i&gt;
-Real Time Clock Module with I2C Bus&lt;/i&gt; &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Ultra low power consumption 130nA
-&lt;li&gt;Xtal integrated solution
-&lt;li&gt;Frequency-Offset Trimming Register
-&lt;li&gt;Backup supply switchover circuitry
-&lt;li&gt;Miniature SMT ceramic package
-&lt;li&gt;Very tight frequency tolerance
-&lt;li&gt;I2C Bus Interface (fast mode 1 MHz)
-&lt;li&gt;Programmable Clock-output
-&lt;li&gt;Low aging
-&lt;li&gt;Time keeping mode down to 1.2 V
-&lt;li&gt;Programmable alarm, timer and interrupt functions</description>
 <gates>
 <gate name="G$1" symbol="MC-RTC-RV-8523-C3-I2C-10P" x="0" y="0"/>
 </gates>
@@ -546,19 +519,6 @@ Real Time Clock Module with I2C Bus&lt;/i&gt; &lt;br&gt;
 </devices>
 </deviceset>
 <deviceset name="MC-RTC-RV-8564-C3-I2C" prefix="X">
-<description>&lt;b&gt;Microcrystal RV-8564-C3&lt;/b&gt; &lt;br&gt; &lt;i&gt;
-Real Time Clock Module with I2C Bus&lt;/i&gt; &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Automotive qualified, according to AEC-Q200 Rev. C
-&lt;li&gt;Xtal integrated solution
-&lt;li&gt;Miniature SMT ceramic package
-&lt;li&gt;Ultra low power consumption
-&lt;li&gt;Very tight frequency tolerance
-&lt;li&gt;I2C Bus Interface (400 kHz) *
-&lt;li&gt;Programmable Clock-output
-&lt;li&gt;Low aging
-&lt;li&gt;Time keeping mode down to 1.2 V
-&lt;li&gt;Programmable alarm, timer and interrupt functions</description>
 <gates>
 <gate name="G$1" symbol="MC-RTC-RV-8564-C3-I2C-10P" x="0" y="0"/>
 </gates>
@@ -617,20 +577,6 @@ Real Time Clock Module with I2C Bus&lt;/i&gt; &lt;br&gt;
 </devices>
 </deviceset>
 <deviceset name="MC-RTC-RV-8803-C7-I2C" prefix="X">
-<description>&lt;b&gt;Microcrystal RV-8803-C7&lt;/b&gt; &lt;br&gt; &lt;i&gt;
-Real Time Clock Module with I2C Bus&lt;/i&gt; &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Extremely Accurate RTC Module with embedded Quartz Crystal.
-&lt;li&gt;Ultra Low Power consumption
-&lt;li&gt;I2C Interface
-&lt;li&gt;Automotive qualified, according to AEC-Q200 Rev. C&lt;/ul&gt;&lt;br&gt;&lt;br&gt;
-Temperature Compensation:
-&lt;table border="1" style="width:100%"&gt;
-  &lt;tr&gt;
-&lt;td&gt;Temperature&lt;/td&gt;&lt;td&gt;Time&lt;/td&gt;&lt;td&gt;Deviation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
- &lt;td&gt;0°C to +50°C&lt;/td&gt;&lt;td&gt;± 0.13 s/day&lt;/td&gt;&lt;td&gt;± 1.5 ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
--&lt;td&gt;40°C to +85°C &lt;/td&gt;&lt;td&gt;± 0.26 s/day&lt;/td&gt;&lt;td&gt;± 3.0 ppm&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;br&gt;
-&lt;b&gt;&lt;i&gt;Lowest current consumption &amp; smallest temperature compensated RTC Module!&lt;/b&gt;&lt;/i&gt;</description>
 <gates>
 <gate name="G$1" symbol="MC-RTC-RV-8803-C7-I2C-8P" x="0" y="0"/>
 </gates>

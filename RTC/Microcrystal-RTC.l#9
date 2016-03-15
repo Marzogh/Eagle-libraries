@@ -331,32 +331,6 @@
 </symbols>
 <devicesets>
 <deviceset name="MC-RTC-RV-3029-C2-I2C" prefix="X">
-<description>&lt;b&gt;Microcrystal RV-3029-C2&lt;/b&gt;&lt;br&gt;&lt;i&gt;
-Real Time Clock Module with I2C-Bus&lt;/i&gt;
-&lt;ul&gt;
-&lt;li&gt;Extremely Accurate RTC Module with embedded Xtal.
-&lt;li&gt;I2C Interface
-&lt;li&gt;Temperature Compensation
-&lt;li&gt;Automotive qualified, according to AEC-Q200 Rev. C
-&lt;/ul&gt;&lt;br&gt;
-
-Option A: Calibrated
-&lt;table border="1" style="width:100%"&gt;
-&lt;tr&gt;
-&lt;td&gt;Temperature&lt;/td&gt;&lt;td&gt;Time&lt;/td&gt;&lt;td&gt;Deviation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;@ +25°C&lt;/td&gt;&lt;td&gt;± 0.26 s/day&lt;/td&gt;&lt;td&gt;± 3ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;0°C to +50°C&lt;/td&gt;&lt;td&gt;± 0.35 s/day&lt;/td&gt;&lt;td&gt;± 4ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;-10°C to +60°C&lt;/td&gt;&lt;td&gt;± 0.44 s/day&lt;/td&gt;&lt;td&gt;± 5ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;-40°C to +85°C&lt;/td&gt;&lt;td&gt;± 0.52 s/day&lt;/td&gt;&lt;td&gt;± 6ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;-40°C to +125°C&lt;/td&gt;&lt;td&gt;± 0.70 s/day&lt;/td&gt;&lt;td&gt;± 8ppm&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;br&gt;
-Option B: Default
-&lt;table border="1" style="width:100%"&gt;
-&lt;tr&gt;
-&lt;td&gt;Temperature&lt;/td&gt;&lt;td&gt;Time&lt;/td&gt;&lt;td&gt;Deviation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;@ +25°C&lt;/td&gt;&lt;td&gt;± 0.26 s/day&lt;/td&gt;&lt;td&gt;± 3ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;0°C to +50°C&lt;/td&gt;&lt;td&gt;± 0.44 s/day&lt;/td&gt;&lt;td&gt;± 5ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;-10°C to +60°C&lt;/td&gt;&lt;td&gt;± 0.87 s/day&lt;/td&gt;&lt;td&gt;±10ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;-40°C to +85°C&lt;/td&gt;&lt;td&gt;± 2.17 s/day&lt;/td&gt;&lt;td&gt;±25ppm&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
 <gates>
 <gate name="G$1" symbol="MC-RTC-RV-3029-C2-I2C-10P" x="0" y="0"/>
 </gates>
@@ -381,19 +355,6 @@ Option B: Default
 </devices>
 </deviceset>
 <deviceset name="MC-RTC-RV-8564-C2-I2C" prefix="X">
-<description>&lt;b&gt;Microcrystal RV-8564-C2&lt;/b&gt; &lt;br&gt; &lt;i&gt;
-Real Time Clock Module with I2C Bus&lt;/i&gt; &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Automotive qualified, according to AEC-Q200 Rev. C
-&lt;li&gt;Xtal integrated solution
-&lt;li&gt;Miniature SMT ceramic package
-&lt;li&gt;Ultra low power consumption
-&lt;li&gt;Very tight frequency tolerance
-&lt;li&gt;I2C Bus Interface (400 kHz) *
-&lt;li&gt;Programmable Clock-output
-&lt;li&gt;Low aging
-&lt;li&gt;Time keeping mode down to 1.2 V
-&lt;li&gt;Programmable alarm, timer and interrupt functions</description>
 <gates>
 <gate name="G$1" symbol="MC-RTC-RV-8564-C2-I2C-10P" x="0" y="0"/>
 </gates>
@@ -418,21 +379,6 @@ Real Time Clock Module with I2C Bus&lt;/i&gt; &lt;br&gt;
 </devices>
 </deviceset>
 <deviceset name="MC-RTC-RV-1805-C3-I2C" prefix="X">
-<description>&lt;b&gt;MicroCrystal RV-1805-C3 &lt;/b&gt;&lt;br&gt;&lt;i&gt;
-Extreme Low Power RTC Module &lt;/i&gt;
-&lt;ul&gt;
-&lt;li&gt;Extreme Low Current consumption
-&lt;ul&gt;&lt;li&gt;XTAL-Mode 60nA
-&lt;li&gt;RC-Mode 17nA
-&lt;li&gt;RC Autocalibrated Mode 22nA&lt;/ul&gt;
-&lt;li&gt;Factory calibrated Time accuracy typ. ±2.0ppm @ 25°C
-&lt;li&gt;Miniature SMT ceramic package with integrated Quartz Crystal for best Noise &amp; EMI Immunity
-&lt;li&gt;Automatic Battery Switchover, Trickle Charger, Power Management &amp; Power Switch Function
-&lt;li&gt;Programmable CLKOUT frequencies
-&lt;li&gt;I2C Bus Interface (fast mode 400kHz)
-&lt;li&gt;Time keeping mode down to 1.5 V
-&lt;li&gt;Programmable Alarm, Timer and INT
-&lt;li&gt;512 Bytes of User RAM</description>
 <gates>
 <gate name="G$1" symbol="MC-RTC-RV-1805-C3-I2C-10P" x="0" y="0"/>
 </gates>
@@ -457,33 +403,6 @@ Extreme Low Power RTC Module &lt;/i&gt;
 </devices>
 </deviceset>
 <deviceset name="MC-RTC-RV-3029-C3-I2C">
-<description>&lt;b&gt;Microcrystal RV-3029-C3&lt;/b&gt;&lt;br&gt;&lt;i&gt;
-Real Time Clock Module with I2C-Bus&lt;/i&gt;
-&lt;ul&gt;
-&lt;li&gt;Extremely Accurate RTC Module with embedded Xtal.
-&lt;li&gt;I2C Interface
-&lt;li&gt;Temperature Compensation
-&lt;li&gt;Automotive qualified, according to AEC-Q200 Rev. C
-&lt;/ul&gt;&lt;br&gt;
-
-Option A: Calibrated
-&lt;table border="1" style="width:100%"&gt;
-&lt;tr&gt;
-&lt;td&gt;Temperature&lt;/td&gt;&lt;td&gt;Time&lt;/td&gt;&lt;td&gt;Deviation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;@ +25°C&lt;/td&gt;&lt;td&gt;± 0.26 s/day&lt;/td&gt;&lt;td&gt;± 3ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;0°C to +50°C&lt;/td&gt;&lt;td&gt;± 0.35 s/day&lt;/td&gt;&lt;td&gt;± 4ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;-10°C to +60°C&lt;/td&gt;&lt;td&gt;± 0.44 s/day&lt;/td&gt;&lt;td&gt;± 5ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;-40°C to +85°C&lt;/td&gt;&lt;td&gt;± 0.52 s/day&lt;/td&gt;&lt;td&gt;± 6ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;-40°C to +125°C&lt;/td&gt;&lt;td&gt;± 0.70 s/day&lt;/td&gt;&lt;td&gt;± 8ppm&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;br&gt;
-Option B: Default
-&lt;table border="1" style="width:100%"&gt;
-&lt;tr&gt;
-&lt;td&gt;Temperature&lt;/td&gt;&lt;td&gt;Time&lt;/td&gt;&lt;td&gt;Deviation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;@ +25°C&lt;/td&gt;&lt;td&gt;± 0.26 s/day&lt;/td&gt;&lt;td&gt;± 3ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;0°C to +50°C&lt;/td&gt;&lt;td&gt;± 0.44 s/day&lt;/td&gt;&lt;td&gt;± 5ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;-10°C to +60°C&lt;/td&gt;&lt;td&gt;± 0.87 s/day&lt;/td&gt;&lt;td&gt;±10ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;-40°C to +85°C&lt;/td&gt;&lt;td&gt;± 2.17 s/day&lt;/td&gt;&lt;td&gt;±25ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;-40°C to +125°C&lt;/td&gt;&lt;td&gt;± 2.60 s/day&lt;/td&gt;&lt;td&gt;±30ppm&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
 <gates>
 <gate name="G$1" symbol="MC-RTC-RV-3029-C3-I2C-10P" x="0" y="0"/>
 </gates>
@@ -508,20 +427,6 @@ Option B: Default
 </devices>
 </deviceset>
 <deviceset name="MC-RTC-RV-8523-C3-I2C" prefix="X">
-<description>&lt;b&gt;Microcrystal RV-8523-C3&lt;/b&gt; &lt;br&gt; &lt;i&gt;
-Real Time Clock Module with I2C Bus&lt;/i&gt; &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Ultra low power consumption 130nA
-&lt;li&gt;Xtal integrated solution
-&lt;li&gt;Frequency-Offset Trimming Register
-&lt;li&gt;Backup supply switchover circuitry
-&lt;li&gt;Miniature SMT ceramic package
-&lt;li&gt;Very tight frequency tolerance
-&lt;li&gt;I2C Bus Interface (fast mode 1 MHz)
-&lt;li&gt;Programmable Clock-output
-&lt;li&gt;Low aging
-&lt;li&gt;Time keeping mode down to 1.2 V
-&lt;li&gt;Programmable alarm, timer and interrupt functions</description>
 <gates>
 <gate name="G$1" symbol="MC-RTC-RV-8523-C3-I2C-10P" x="0" y="0"/>
 </gates>
@@ -546,19 +451,6 @@ Real Time Clock Module with I2C Bus&lt;/i&gt; &lt;br&gt;
 </devices>
 </deviceset>
 <deviceset name="MC-RTC-RV-8564-C3-I2C" prefix="X">
-<description>&lt;b&gt;Microcrystal RV-8564-C3&lt;/b&gt; &lt;br&gt; &lt;i&gt;
-Real Time Clock Module with I2C Bus&lt;/i&gt; &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Automotive qualified, according to AEC-Q200 Rev. C
-&lt;li&gt;Xtal integrated solution
-&lt;li&gt;Miniature SMT ceramic package
-&lt;li&gt;Ultra low power consumption
-&lt;li&gt;Very tight frequency tolerance
-&lt;li&gt;I2C Bus Interface (400 kHz) *
-&lt;li&gt;Programmable Clock-output
-&lt;li&gt;Low aging
-&lt;li&gt;Time keeping mode down to 1.2 V
-&lt;li&gt;Programmable alarm, timer and interrupt functions</description>
 <gates>
 <gate name="G$1" symbol="MC-RTC-RV-8564-C3-I2C-10P" x="0" y="0"/>
 </gates>
@@ -583,18 +475,6 @@ Real Time Clock Module with I2C Bus&lt;/i&gt; &lt;br&gt;
 </devices>
 </deviceset>
 <deviceset name="MC-RTC-RV-4162-C7-I2C" prefix="X">
-<description>&lt;b&gt;Microcrystal RV-4162-C7&lt;/b&gt; &lt;br&gt; &lt;i&gt;
-Real Time Clock Module with I2C Bus&lt;/i&gt; &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Ultra small SMT ceramic package with integrated 32.768kHz Crystal
-&lt;li&gt;Automotive qualified, according to AEC-Q200 Rev. C
-&lt;li&gt;I2C Interface Address: D0h
-&lt;li&gt;Frequency-Offset Trimming Register
-&lt;li&gt;Programmable Alarm and Interrupt
-&lt;li&gt;Oscillator Fail Detection
-&lt;li&gt;Watchdog Timer
-&lt;li&gt;Programmable Clock-Output
-&lt;li&gt;Time keeping mode down to 1.0 V</description>
 <gates>
 <gate name="G$1" symbol="MC-RTC-RV-4162-C7-I2C-8P" x="0" y="0"/>
 </gates>
@@ -608,215 +488,6 @@ Real Time Clock Module with I2C Bus&lt;/i&gt; &lt;br&gt;
 <connect gate="G$1" pin="NC@2" pad="P$7"/>
 <connect gate="G$1" pin="SCL" pad="P$8"/>
 <connect gate="G$1" pin="SDA" pad="P$1"/>
-<connect gate="G$1" pin="VDD" pad="P$5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MC-RTC-RV-8803-C7-I2C" prefix="X">
-<description>&lt;b&gt;Microcrystal RV-8803-C7&lt;/b&gt; &lt;br&gt; &lt;i&gt;
-Real Time Clock Module with I2C Bus&lt;/i&gt; &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Extremely Accurate RTC Module with embedded Quartz Crystal.
-&lt;li&gt;Ultra Low Power consumption
-&lt;li&gt;I2C Interface
-&lt;li&gt;Automotive qualified, according to AEC-Q200 Rev. C&lt;/ul&gt;&lt;br&gt;&lt;br&gt;
-Temperature Compensation:
-&lt;table border="1" style="width:100%"&gt;
-  &lt;tr&gt;
-&lt;td&gt;Temperature&lt;/td&gt;&lt;td&gt;Time&lt;/td&gt;&lt;td&gt;Deviation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
- &lt;td&gt;0°C to +50°C&lt;/td&gt;&lt;td&gt;± 0.13 s/day&lt;/td&gt;&lt;td&gt;± 1.5 ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
--&lt;td&gt;40°C to +85°C &lt;/td&gt;&lt;td&gt;± 0.26 s/day&lt;/td&gt;&lt;td&gt;± 3.0 ppm&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;br&gt;
-&lt;b&gt;&lt;i&gt;Lowest current consumption &amp; smallest temperature compensated RTC Module!&lt;/b&gt;&lt;/i&gt;</description>
-<gates>
-<gate name="G$1" symbol="MC-RTC-RV-8803-C7-I2C-8P" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MC-RTC-C7">
-<connects>
-<connect gate="G$1" pin="CLKOE" pad="P$4"/>
-<connect gate="G$1" pin="CLKOUT" pad="P$2"/>
-<connect gate="G$1" pin="EVI" pad="P$7"/>
-<connect gate="G$1" pin="GND" pad="P$5"/>
-<connect gate="G$1" pin="INT" pad="P$6"/>
-<connect gate="G$1" pin="SCL" pad="P$8"/>
-<connect gate="G$1" pin="SDA" pad="P$1"/>
-<connect gate="G$1" pin="VDD" pad="P$3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MC-RTC-RV-2123-C2-SPI" prefix="X">
-<description>&lt;b&gt;Microcrystal RV-2123-C2&lt;/b&gt;&lt;br&gt;&lt;i&gt;
-Real Time Clock Module with SPI Bus&lt;/i&gt;
-&lt;ul&gt;
-&lt;li&gt;Ultra low power consumption 130nA
-&lt;li&gt;Automotive qualified, according to AEC-Q200 Rev. C
-&lt;li&gt;Xtal integrated solution
-&lt;li&gt;Frequency-Offset Trimming Register
-&lt;li&gt;Miniature SMT ceramic package
-&lt;li&gt;Very tight frequency tolerance
-&lt;li&gt;SPI Bus Interface (SCL up to 8 MHz)
-&lt;li&gt;Programmable Clock-output
-&lt;li&gt;Low aging
-&lt;li&gt;Time keeping mode down to 1.1 V
-&lt;li&gt;Programmable alarm, timer and interrupt functions</description>
-<gates>
-<gate name="G$1" symbol="MC-RTC-RV-2123-C2-SPI-10P" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MC-RTC-C2">
-<connects>
-<connect gate="G$1" pin="CE/CS" pad="P$7"/>
-<connect gate="G$1" pin="CLKOE" pad="P$10"/>
-<connect gate="G$1" pin="CLKOUT" pad="P$2"/>
-<connect gate="G$1" pin="DI" pad="P$4"/>
-<connect gate="G$1" pin="DO" pad="P$5"/>
-<connect gate="G$1" pin="GND" pad="P$6"/>
-<connect gate="G$1" pin="INT" pad="P$8"/>
-<connect gate="G$1" pin="NC" pad="P$9"/>
-<connect gate="G$1" pin="SCK" pad="P$3"/>
-<connect gate="G$1" pin="VDD" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MC-RTC-RV-3049-C2-SPI" prefix="X">
-<description>&lt;b&gt;Microcrystal RV-3049-C2&lt;/b&gt;&lt;br&gt;&lt;i&gt;
-Real Time Clock Module with SPI-Bus&lt;/i&gt;
-&lt;ul&gt;
-&lt;li&gt;Extremely Accurate RTC Module with embedded Xtal.
-&lt;li&gt;SPI Interface
-&lt;li&gt;Temperature Compensation
-&lt;li&gt;Automotive qualified, according to AEC-Q200 Rev. C
-&lt;/ul&gt;&lt;br&gt;
-
-Option A: Calibrated
-&lt;table border="1" style="width:100%"&gt;
-&lt;tr&gt;
-&lt;td&gt;Temperature&lt;/td&gt;&lt;td&gt;Time&lt;/td&gt;&lt;td&gt;Deviation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;@ +25°C&lt;/td&gt;&lt;td&gt;± 0.26 s/day&lt;/td&gt;&lt;td&gt;± 3ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;0°C to +50°C&lt;/td&gt;&lt;td&gt;± 0.35 s/day&lt;/td&gt;&lt;td&gt;± 4ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;-10°C to +60°C&lt;/td&gt;&lt;td&gt;± 0.44 s/day&lt;/td&gt;&lt;td&gt;± 5ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;-40°C to +85°C&lt;/td&gt;&lt;td&gt;± 0.52 s/day&lt;/td&gt;&lt;td&gt;± 6ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;-40°C to +125°C&lt;/td&gt;&lt;td&gt;± 0.70 s/day&lt;/td&gt;&lt;td&gt;± 8ppm&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;br&gt;
-Option B: Default
-&lt;table border="1" style="width:100%"&gt;
-&lt;tr&gt;
-&lt;td&gt;Temperature&lt;/td&gt;&lt;td&gt;Time&lt;/td&gt;&lt;td&gt;Deviation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;@ +25°C&lt;/td&gt;&lt;td&gt;± 0.26 s/day&lt;/td&gt;&lt;td&gt;± 3ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;0°C to +50°C&lt;/td&gt;&lt;td&gt;± 0.44 s/day&lt;/td&gt;&lt;td&gt;± 5ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;-10°C to +60°C&lt;/td&gt;&lt;td&gt;± 0.87 s/day&lt;/td&gt;&lt;td&gt;±10ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;-40°C to +85°C&lt;/td&gt;&lt;td&gt;± 2.17 s/day&lt;/td&gt;&lt;td&gt;±25ppm&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-<gates>
-<gate name="G$1" symbol="MC-RTC-RV-3049-C2-SPI-10P" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MC-RTC-C2">
-<connects>
-<connect gate="G$1" pin="CE/CS" pad="P$3"/>
-<connect gate="G$1" pin="CLKOE" pad="P$10"/>
-<connect gate="G$1" pin="CLKOUT" pad="P$2"/>
-<connect gate="G$1" pin="DI" pad="P$9"/>
-<connect gate="G$1" pin="DO" pad="P$5"/>
-<connect gate="G$1" pin="GND" pad="P$6"/>
-<connect gate="G$1" pin="INT" pad="P$7"/>
-<connect gate="G$1" pin="SCK" pad="P$4"/>
-<connect gate="G$1" pin="VDD" pad="P$1"/>
-<connect gate="G$1" pin="V_BAK" pad="P$8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MC-RTC-RV-3049-C3-SPI" prefix="X">
-<description>&lt;b&gt;Microcrystal RV-3049-C3&lt;/b&gt;&lt;br&gt;&lt;i&gt;
-Real Time Clock Module with SPI-Bus&lt;/i&gt;
-&lt;ul&gt;
-&lt;li&gt;Extremely Accurate RTC Module with embedded Xtal.
-&lt;li&gt;SPI Interface
-&lt;li&gt;Temperature Compensation
-&lt;li&gt;Automotive qualified, according to AEC-Q200 Rev. C
-&lt;/ul&gt;&lt;br&gt;
-
-Option A: Calibrated
-&lt;table border="1" style="width:100%"&gt;
-&lt;tr&gt;
-&lt;td&gt;Temperature&lt;/td&gt;&lt;td&gt;Time&lt;/td&gt;&lt;td&gt;Deviation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;@ +25°C&lt;/td&gt;&lt;td&gt;± 0.26 s/day&lt;/td&gt;&lt;td&gt;± 3ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;0°C to +50°C&lt;/td&gt;&lt;td&gt;± 0.35 s/day&lt;/td&gt;&lt;td&gt;± 4ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;-10°C to +60°C&lt;/td&gt;&lt;td&gt;± 0.44 s/day&lt;/td&gt;&lt;td&gt;± 5ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;-40°C to +85°C&lt;/td&gt;&lt;td&gt;± 0.52 s/day&lt;/td&gt;&lt;td&gt;± 6ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;-40°C to +125°C&lt;/td&gt;&lt;td&gt;± 0.70 s/day&lt;/td&gt;&lt;td&gt;± 8ppm&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;br&gt;
-Option B: Default
-&lt;table border="1" style="width:100%"&gt;
-&lt;tr&gt;
-&lt;td&gt;Temperature&lt;/td&gt;&lt;td&gt;Time&lt;/td&gt;&lt;td&gt;Deviation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;@ +25°C&lt;/td&gt;&lt;td&gt;± 0.26 s/day&lt;/td&gt;&lt;td&gt;± 3ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;0°C to +50°C&lt;/td&gt;&lt;td&gt;± 0.44 s/day&lt;/td&gt;&lt;td&gt;± 5ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;-10°C to +60°C&lt;/td&gt;&lt;td&gt;± 0.87 s/day&lt;/td&gt;&lt;td&gt;±10ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;-40°C to +85°C&lt;/td&gt;&lt;td&gt;± 2.17 s/day&lt;/td&gt;&lt;td&gt;±25ppm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
-&lt;td&gt;-40°C to +125°C&lt;/td&gt;&lt;td&gt;± 2.60 s/day&lt;/td&gt;&lt;td&gt;±30ppm&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
-<gates>
-<gate name="G$1" symbol="MC-RTC-RV-3049-C3-SPI-10P" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MC-RTC-C3">
-<connects>
-<connect gate="G$1" pin="CE/CS" pad="P$8"/>
-<connect gate="G$1" pin="CLKOE" pad="P$1"/>
-<connect gate="G$1" pin="CLKOUT" pad="P$3"/>
-<connect gate="G$1" pin="DI" pad="P$10"/>
-<connect gate="G$1" pin="DO" pad="P$5"/>
-<connect gate="G$1" pin="GND" pad="P$6"/>
-<connect gate="G$1" pin="INT" pad="P$7"/>
-<connect gate="G$1" pin="SCK" pad="P$4"/>
-<connect gate="G$1" pin="VDD" pad="P$2"/>
-<connect gate="G$1" pin="V_BAK" pad="P$9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MC-RTC-RV-8063-C7-SPI" prefix="X">
-<description>&lt;b&gt;Microcrystal RV-8063-C7&lt;/b&gt; &lt;br&gt; &lt;i&gt;
-Real Time Clock Module with SPI Bus&lt;/i&gt; &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Ultra small SMT ceramic package with integrated 32.768kHz Crystal
-&lt;li&gt;Automotive qualified, according to AEC-Q200 Rev. C
-&lt;li&gt;High Speed SPI Interface 7 MHz Programmable Offset Register
-&lt;li&gt;Alarm and Timer Interrupt
-&lt;li&gt;Minute and Half Minute Interrupt
-&lt;li&gt;Oscillator Stop Detection
-&lt;li&gt;Programmable Clock Output
-&lt;li&gt;Time keeping mode down to 0.9 V
-&lt;li&gt;Very low power consumption 190nA</description>
-<gates>
-<gate name="G$1" symbol="MC-RTC-RV-8063-C7-SPI-8P" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MC-RTC-C7">
-<connects>
-<connect gate="G$1" pin="CE/CS" pad="P$8"/>
-<connect gate="G$1" pin="CLKOE" pad="P$3"/>
-<connect gate="G$1" pin="CLKOUT" pad="P$6"/>
-<connect gate="G$1" pin="DI/DO" pad="P$1"/>
-<connect gate="G$1" pin="GND" pad="P$2"/>
-<connect gate="G$1" pin="INT" pad="P$4"/>
-<connect gate="G$1" pin="SCK" pad="P$7"/>
 <connect gate="G$1" pin="VDD" pad="P$5"/>
 </connects>
 <technologies>
