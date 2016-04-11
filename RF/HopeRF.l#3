@@ -57,7 +57,7 @@
 </layers>
 <library>
 <packages>
-<package name="RFM69W/HW">
+<package name="W/HCW">
 <smd name="P$1" x="1.27" y="14.635" dx="2.54" dy="1.27" layer="1"/>
 <smd name="P$2" x="1.27" y="12.635" dx="2.54" dy="1.27" layer="1"/>
 <smd name="P$3" x="1.27" y="10.635" dx="2.54" dy="1.27" layer="1"/>
@@ -92,9 +92,6 @@
 <wire x1="23.1" y1="-1.8" x2="23.1" y2="17.1" width="0.1" layer="21"/>
 <wire x1="23.1" y1="17.1" x2="-0.5" y2="17.1" width="0.1" layer="21"/>
 <wire x1="-0.5" y1="17.1" x2="-0.5" y2="-1.8" width="0.1" layer="21"/>
-<circle x="0.2" y="15.9" radius="0.1" width="0.4" layer="21"/>
-<text x="24.3" y="14.9" size="1.9304" layer="25" font="vector">&gt;Name</text>
-<text x="24.9" y="12.8" size="1.27" layer="27" font="vector" ratio="6">&gt;Value</text>
 </package>
 </packages>
 <symbols>
