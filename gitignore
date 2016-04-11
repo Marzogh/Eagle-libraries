@@ -1,4 +1,5 @@
-#OS specific ignores
-
+#OSX Files
 *.DS_Store
+
+#Windows files
 Thumbs.db
