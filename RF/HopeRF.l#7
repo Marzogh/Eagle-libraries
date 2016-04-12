@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
+<grid distance="2" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -48,7 +48,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -57,7 +57,7 @@
 </layers>
 <library>
 <packages>
-<package name="W/HCW">
+<package name="RFM69W/HW">
 <smd name="P$1" x="1.27" y="14.635" dx="2.54" dy="1.27" layer="1"/>
 <smd name="P$2" x="1.27" y="12.635" dx="2.54" dy="1.27" layer="1"/>
 <smd name="P$3" x="1.27" y="10.635" dx="2.54" dy="1.27" layer="1"/>
@@ -92,9 +92,30 @@
 <wire x1="23.1" y1="-1.8" x2="23.1" y2="17.1" width="0.1" layer="21"/>
 <wire x1="23.1" y1="17.1" x2="-0.5" y2="17.1" width="0.1" layer="21"/>
 <wire x1="-0.5" y1="17.1" x2="-0.5" y2="-1.8" width="0.1" layer="21"/>
+<circle x="0.2" y="15.9" radius="0.1" width="0.4" layer="21"/>
+<text x="24.3" y="14.9" size="1.9304" layer="25" font="vector">&gt;Name</text>
+<text x="24.9" y="12.8" size="1.27" layer="27" font="vector" ratio="6">&gt;Value</text>
 </package>
 </packages>
 <symbols>
+<symbol name="RFM69W/HW">
+<pin name="RESET" x="-18" y="14" visible="pin" length="middle"/>
+<pin name="DIO0" x="-18" y="10" visible="pin" length="middle"/>
+<pin name="DIO1" x="-18" y="6" visible="pin" length="middle"/>
+<pin name="DIO2" x="-18" y="2" visible="pin" length="middle"/>
+<pin name="DIO3" x="-18" y="-2" visible="pin" length="middle"/>
+<pin name="DIO4" x="-18" y="-6" visible="pin" length="middle"/>
+<pin name="DIO5" x="-18" y="-10" visible="pin" length="middle"/>
+<pin name="3.3V" x="-18" y="-14" visible="pin" length="middle"/>
+<pin name="GND@1" x="20" y="-14" visible="pin" length="middle" rot="R180"/>
+<pin name="ANA" x="20" y="-10" visible="pin" length="middle" rot="R180"/>
+<pin name="GND@2" x="20" y="-6" visible="pin" length="middle" rot="R180"/>
+<pin name="SCK" x="20" y="-2" visible="pin" length="middle" rot="R180"/>
+<pin name="MISO" x="20" y="2" visible="pin" length="middle" rot="R180"/>
+<pin name="MOSI" x="20" y="6" visible="pin" length="middle" rot="R180"/>
+<pin name="NSS" x="20" y="10" visible="pin" length="middle" rot="R180"/>
+<pin name="NC" x="20" y="14" visible="pin" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 </devicesets>
