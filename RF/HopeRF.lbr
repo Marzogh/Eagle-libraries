@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -99,35 +99,35 @@
 </packages>
 <symbols>
 <symbol name="RFM69W/HW">
-<pin name="RESET" x="-18" y="14" visible="pin" length="middle"/>
-<pin name="DIO0" x="-18" y="10" visible="pin" length="middle"/>
-<pin name="DIO1" x="-18" y="6" visible="pin" length="middle"/>
-<pin name="DIO2" x="-18" y="2" visible="pin" length="middle"/>
-<pin name="DIO3" x="-18" y="-2" visible="pin" length="middle"/>
-<pin name="DIO4" x="-18" y="-6" visible="pin" length="middle"/>
-<pin name="DIO5" x="-18" y="-10" visible="pin" length="middle"/>
-<pin name="3.3V" x="-18" y="-14" visible="pin" length="middle" direction="pwr"/>
-<pin name="GND@1" x="20" y="-14" visible="pin" length="middle" direction="pwr" rot="R180"/>
-<pin name="ANA" x="20" y="-10" visible="pin" length="middle" rot="R180"/>
-<pin name="GND@2" x="20" y="-6" visible="pin" length="middle" direction="pwr" rot="R180"/>
-<pin name="SCK" x="20" y="-2" visible="pin" length="middle" function="clk" rot="R180"/>
-<pin name="MISO" x="20" y="2" visible="pin" length="middle" rot="R180"/>
-<pin name="MOSI" x="20" y="6" visible="pin" length="middle" rot="R180"/>
-<pin name="NSS" x="20" y="10" visible="pin" length="middle" rot="R180"/>
-<pin name="NC" x="20" y="14" visible="pin" length="middle" direction="nc" rot="R180"/>
-<wire x1="-14" y1="24" x2="16" y2="24" width="0.254" layer="94"/>
-<wire x1="16" y1="24" x2="16" y2="16" width="0.254" layer="94"/>
-<wire x1="16" y1="16" x2="16" y2="-16" width="0.254" layer="94"/>
-<wire x1="16" y1="-16" x2="16" y2="-24" width="0.254" layer="94"/>
-<wire x1="16" y1="-24" x2="-14" y2="-24" width="0.254" layer="94"/>
-<wire x1="-14" y1="-24" x2="-14" y2="-16" width="0.254" layer="94"/>
-<wire x1="-14" y1="-16" x2="-14" y2="16" width="0.254" layer="94"/>
-<wire x1="-14" y1="16" x2="-14" y2="24" width="0.254" layer="94"/>
-<wire x1="-14" y1="16" x2="16" y2="16" width="0.127" layer="94" style="shortdash"/>
-<wire x1="-14" y1="-16" x2="16" y2="-16" width="0.127" layer="94" style="shortdash"/>
-<text x="2" y="18" size="1.27" layer="94" align="bottom-center">RFM69H/HW
+<pin name="RESET" x="-20.32" y="15.24" visible="pin" length="middle"/>
+<pin name="DIO0" x="-20.32" y="10.16" visible="pin" length="middle"/>
+<pin name="DIO1" x="-20.32" y="5.08" visible="pin" length="middle"/>
+<pin name="DIO2" x="-20.32" y="0" visible="pin" length="middle"/>
+<pin name="DIO3" x="-20.32" y="-5.08" visible="pin" length="middle"/>
+<pin name="DIO4" x="-20.32" y="-10.16" visible="pin" length="middle"/>
+<pin name="DIO5" x="-20.32" y="-15.24" visible="pin" length="middle"/>
+<pin name="3.3V" x="-20.32" y="-20.32" visible="pin" length="middle" direction="pwr"/>
+<pin name="GND@1" x="20.32" y="-20.32" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="ANA" x="20.32" y="-15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="GND@2" x="20.32" y="-10.16" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="SCK" x="20.32" y="-5.08" visible="pin" length="middle" function="clk" rot="R180"/>
+<pin name="MISO" x="20.32" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="MOSI" x="20.32" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="NSS" x="20.32" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="NC" x="20.32" y="15.24" visible="pin" length="middle" direction="nc" rot="R180"/>
+<wire x1="-16.51" y1="25.4" x2="16.51" y2="25.4" width="0.254" layer="94"/>
+<wire x1="16.51" y1="25.4" x2="16.51" y2="16.51" width="0.254" layer="94"/>
+<wire x1="16.51" y1="16.51" x2="16.51" y2="-21.59" width="0.254" layer="94"/>
+<wire x1="16.51" y1="-21.59" x2="16.51" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="16.51" y1="-30.48" x2="-16.51" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-16.51" y1="-30.48" x2="-16.51" y2="-21.59" width="0.254" layer="94"/>
+<wire x1="-16.51" y1="-21.59" x2="-16.51" y2="16.51" width="0.254" layer="94"/>
+<wire x1="-16.51" y1="16.51" x2="-16.51" y2="25.4" width="0.254" layer="94"/>
+<wire x1="-16.51" y1="16.51" x2="16.51" y2="16.51" width="0.127" layer="94" style="shortdash"/>
+<wire x1="-16.51" y1="-21.59" x2="16.51" y2="-21.59" width="0.127" layer="94" style="shortdash"/>
+<text x="0.222" y="19.778" size="1.27" layer="94" align="bottom-center">RFM69H/HW
 ISM Band Radio</text>
-<text x="2" y="-22" size="1.27" layer="94" align="bottom-center">VDD - 1.8-3.6V
+<text x="-0.032" y="-27.842" size="1.27" layer="94" align="bottom-center">VDD - 1.8-3.6V
 Temp -40 +85ºC</text>
 </symbol>
 </symbols>
@@ -168,7 +168,7 @@ Purchase at:&lt;p&gt;
 <gate name="G$1" symbol="RFM69W/HW" x="0" y="0"/>
 </gates>
 <devices>
-<device name="RFM69W/HW" package="RFM69W/HW">
+<device name="-" package="RFM69W/HW">
 <connects>
 <connect gate="G$1" pin="3.3V" pad="P$8"/>
 <connect gate="G$1" pin="ANA" pad="P$10"/>
