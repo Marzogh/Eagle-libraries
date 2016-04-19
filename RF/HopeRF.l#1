@@ -125,7 +125,7 @@
 <wire x1="-16.51" y1="16.51" x2="-16.51" y2="25.4" width="0.254" layer="94"/>
 <wire x1="-16.51" y1="16.51" x2="16.51" y2="16.51" width="0.127" layer="94" style="shortdash"/>
 <wire x1="-16.51" y1="-21.59" x2="16.51" y2="-21.59" width="0.127" layer="94" style="shortdash"/>
-<text x="0.222" y="19.778" size="1.27" layer="94" align="bottom-center">RFM69W/HW
+<text x="0.222" y="19.778" size="1.27" layer="94" align="bottom-center">RFM69H/HW
 ISM Band Radio</text>
 <text x="-0.032" y="-27.842" size="1.27" layer="94" align="bottom-center">VDD - 1.8-3.6V
 Temp -40 +85ºC</text>
